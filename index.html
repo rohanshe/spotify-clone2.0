@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="./spotify-img/logo.png">
+  <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="sidebar">
+      <div class="nav">
+        <div class="nav-option " style="opacity: 1;">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+
+        <div class="nav-option">
+          <i class="fa-solid fa-magnifying-glass opacity"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="library">
+        <div class="options">
+          <div class="lab-option">
+            <img src="./spotify-img/library_icon (1).png" alt="library icon" style="height: 1.4rem;width:1.4rem;">
+            <a href="#" style="text-decoration: none;color:#fff;">Your Library</a>
+            <i class="fa-solid fa-plus opacity"></i>
+            <i class="fa-solid fa-arrow-right opacity"></i>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <a href=""><button class="hovering">playlists</button></a>
+          <a href=""><button class="hovering">options</button></a>
+        </div>
+
+        <div class="search-resent-icon">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass opacity"></i>
+          </div>
+          <div class="resent-icon-box">
+            <span class="opacity">resents</span>
+            <i class="fa-solid fa-list opacity" style="margin-left: 4px;"></i>
+          </div>
+        </div>
+        <div class="img-boxes-con">
+
+          <div class="img-box">
+            <img src="./spotify-img/h.avif" alt="">
+            <div class="img-con">
+              <p>liked songs</p>
+              <span>playlist. 1 song</span>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="./spotify-img/brook1.jpeg" alt="">
+            <div class="img-con">
+              <p>Brook</p>
+              <span>Musician and singer</span>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="./spotify-img/8945988.jpg" alt="">
+            <div class="img-con">
+              <p>ed sheeran</p>
+              <span>artist</span>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="./spotify-img/argsing.jpeg" alt="">
+            <div class="img-con">
+              <p>arjit sing</p>
+              <span>artist</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- main content start -->
+    <div class="main-content">
+      <div class="navbar">
+        <div class="upper-nav">
+          <div class="left-right-bar">
+            <div class="lf"> <img src="./spotify-img/backward_icon.png" class="lft-rt" alt=""></div>
+            <div class="rt"> <img src="./spotify-img/forward_icon.png" class="lft-rt" alt="">
+            </div>
+          </div>
+          <div class="button-bar">
+            <a href=""><button style="border: 2px solid white;width: 8rem;" class="shadow-effect">explore premium</button></a>
+            <a href=""><button style="color: white; background-color: black; border: 2px solid black; width: 7rem;"class="shadow-effect"><i
+                  class="fa-regular fa-circle-down" style="padding-right: 4px;"></i>install app</button></a>
+
+            <a href="" class="bell shadow-effect"><i class="fa-regular fa-bell"></i></a>
+
+            <a href="" class="profile shadow-effect"><span>R</span></a>
+
+          </div>
+        </div>
+        <div class="lower-nav">
+          <button style="width: 40px;">all</button>
+          <button style="background-color:#1d1c1c; border-color: #1d1c1c; color: white;margin-left: 5px;" class="hovering">music</button>
+          <button
+            style="background-color:#1d1c1c; border-color: #1d1c1c; color: white;margin-left: 5px;"class="hovering">podcast</button>
+        </div>
+      </div>
+      <div class="resently-played">
+        <h3>Recently Played</h3>
+
+        <div class="m-cards-container">
+          <div class="cards">
+            <!-- <div class="mx-player-btn"></div> -->
+            <!-- <img src="/spotify-img/brook1.jpeg" class="img-circle"> -->
+            <div class="card-img-div img-one">
+                   <div class="mx-player-btn">
+                    <i class="fa-solid fa-play"></i>
+                   </div>
+            </div>
+            <p>brook </p> 
+            <span>musician and singer</span>
+          </div>
+          <div class="cards">
+            <!-- <img src="/spotify-img/argsing.jpeg" alt=""> -->
+            <div class="card-img-div img-two">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div>
+       </div>
+            <p>arjit sing</p>
+            <span>artist</span>
+          </div>
+          <div class="cards">
+            <!-- <img src="/spotify-img/8945988.jpg" alt="" class="img-circle"> -->
+            <div class="card-img-div img-three">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div>
+       </div>
+            <p>ed sheeran</p>
+            <span>artist</span>
+          </div>
+          <div class="cards">
+            <!-- <img src="/spotify-img/card2img (1).jpeg" alt=""> -->
+            <div class="card-img-div img-four">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div>
+       </div>
+            <p>hindi song</p>
+            <span>mahiye jinna sona</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="made-for-me">
+        <h3 >Made for You</h3>
+        <div class="m-cards-container">
+          <div class="cards">
+            <img src="./spotify-img/card3img.jpeg">
+            <!-- <div class="card-img-div img-five">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div> -->
+            <p>brook</p>
+            <span>musician and singer</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/card4img.jpeg" alt="">
+            <!-- <div class="card-img-div img-six">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div> -->
+            <p>arjit sing</p>
+            <span>artist</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/card5img.jpeg" alt="">
+            <!-- <div class="card-img-div img-seven">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div> -->
+            <p>ed sheeran</p>
+            <span>artist</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/card6img.jpeg" alt="">
+            <!-- <div class="card-img-div img-eight">
+              <div class="mx-player-btn">
+               <i class="fa-solid fa-play"></i>
+              </div> -->
+            <p>hindi song</p>
+            <span>mahiye jinna sona</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="your-top-mixes">
+        <h3>your top mixes</h3>
+        <div class="m-cards-container">
+          <div class="cards">
+            <img src="./spotify-img/javed-ali.jpg">
+            <p>javed alli mix</p>
+            <span>vishal dadlani,pritam and monty sharma</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/pritam.jpeg" alt="">
+            <p>pritam mix</p>
+            <span>vishal dadlani,ayushamann khurrana...</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/Anirudh_R.jpg" alt="">
+            <p>romantic mix</p>
+            <span>anirudh ravichander,arijit singh,jasleen...</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/vish.jpg" alt="">
+            <p>upbeat mix</p>
+            <span>vishal dadlani,ed sheeran and more</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="todays-biggeshit">
+        <h3>today's biggest hits</h3>
+        <div class="m-cards-container">
+          <div class="cards">
+            <img src="./spotify-img/brook1.jpeg">
+            <p>javed alli mix</p>
+            <span>vishal dadlani,pritam and monty sharma</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/argsing.jpeg" alt="">
+            <p>pritam mix</p>
+            <span>vishal dadlani,ayushamann khurrana...</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/8945988.jpg" alt="">
+            <p>romantic mix</p>
+            <span>anirudh ravichander,arijit singh,jasleen...</span>
+          </div>
+          <div class="cards">
+            <img src="./spotify-img/card2img (1).jpeg" alt="">
+            <p>upbeat mix</p>
+            <span>vishal dadlani,ed sheeran and more</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- music player start -->
+    <div class="music-player">
+      <div class="music-icons">
+        <img src="./spotify-img/player_icon1.png" alt="">
+        <img src="./spotify-img/player_icon2.png" alt="">
+        <img src="./spotify-img/player_icon3.png" alt="" style="height:30px;">
+        <img src="./spotify-img/player_icon4.png" alt="">
+        <img src="./spotify-img/player_icon5.png" alt="">
+      </div>
+
+      <div class="range">
+        <pre>-:--  </pre>
+        <div class="music-disp"></div>
+        <pre>  --:-</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
